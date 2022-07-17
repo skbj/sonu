@@ -1,0 +1,857 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px;
+
+
+}
+
+    header {
+    background-image: url(./header.webp);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+position: relative;
+
+
+    height: 80vh;
+    margin: auto;
+    border-radius: 10px;
+
+
+}
+
+nav img {
+    width: 90px;
+    border-radius: 100%;
+    padding-left: 40px;
+}
+
+
+
+.menu ul li {
+    display: inline-block;
+    padding-right: 50px;
+    padding-top: 20px;
+     font-size: 35px;
+    font-weight: 100;
+
+}
+
+.menu ul li a {
+
+    text-decoration: none;
+    color: aliceblue;
+
+
+}
+
+.menu ul li :hover {
+    width: 80px;
+    background-color: red;
+    border-radius: 10px;
+    height: 20px;
+
+}
+
+.text {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    color: red;
+    margin-top: 100px;
+
+}
+
+.text h1 {
+    font-size: 40px;
+
+
+
+}
+
+.text p {
+    padding-top: 20px;
+    font-size: 20px;
+}
+
+.btn {
+    text-decoration: none;
+    font-size: 25px;
+    margin-top: 30px;
+    font-weight: bold;
+    color: red;
+    padding: 10px;
+    border-radius: 10px;
+    
+    border: 1px red solid;
+
+}
+
+.btn:hover {
+    background-color: rgb(255, 136, 0);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
+
+/* courses */
+
+
+
+.courses {
+    width: 90%;
+    text-align: center;
+    margin-bottom: 10px;
+    margin: auto;
+    margin-top: 100px;
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-size: 20px;
+
+
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding-top: 50px;
+
+}
+
+.courses h1 {
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+
+.couresname {
+    padding: 10px;
+    background-color: bisque;
+    flex-basis: 30%;
+    border-radius: 15px;
+    margin-bottom: 40px;
+
+}
+
+.couresname:hover {
+    background-color: aquamarine;
+}
+
+
+.couresname p {
+    padding-top: 10px;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+/* campus part */
+
+.campus{
+
+
+
+    width: 90%;
+    text-align: center;
+    margin: auto;
+    margin-top: 100px;
+
+    margin-bottom: 50px;
+    font-size: 20px;
+}
+
+
+.campus-col{flex-basis: 40%;
+    text-align: left;
+    margin: auto;
+    margin-top: 90px;
+    position: relative;
+    /* overflow: hidden; */
+    border-radius: 10px;
+    
+}
+
+.campus-col img{ 
+
+    width: 100%;
+    height:100%;
+    border-radius: 10px;
+}
+.campus p{
+    margin-top: 50px;
+}
+
+/* layer */
+.layer{ background: transparent;
+    width: 100%;
+    height: 100%;
+    
+     position: absolute;
+    left: 0px;
+    top: 0px; 
+
+text-align: center;
+
+}
+.layer:hover{background-color: rgba(250, 0,0,0.7);}
+
+
+.layer h3{ position: absolute;
+    bottom: 0px;
+    left: 100px;
+    opacity: 0;
+
+
+                }
+.layer:hover h3{ position: absolute;
+           bottom: 50%;
+           left: 100px;
+           transition: all;
+           font-size: 40px;
+color: #fff;
+           transition-duration: 1s;
+           opacity: 1;
+           
+
+
+
+
+}
+
+
+
+/* facility part */
+
+.facility {
+    text-align: center;
+    width: 90%;
+    margin: auto;
+    padding-top: 40px;
+    font-size: 15px;
+
+}
+
+.facility h1 {
+    margin-bottom: 10px;
+}
+
+.face1 {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    flex-basis: 32%;
+    margin: 10px;
+    margin-bottom: 10px;
+    text-align: left;
+
+
+}
+
+.face1 h3 {
+    margin-bottom: 10PX;
+}
+
+.face1 img {
+    width: 100%;
+    height: 100%;
+
+
+    border-radius: 10px;
+    border: 1px solid red;
+    margin-bottom: 10px;
+
+}
+
+
+
+
+
+/* tesimonial part */
+
+.testi {
+    width: 90%;
+    margin: auto;
+
+    text-align: center;
+    margin-top: 100px;
+
+}
+
+.testi h1 {
+    margin-bottom: 20px;
+}
+
+.testi-col {
+    flex-basis: 45%;
+
+    border-radius: 10px;
+    background-color: aquamarine;
+
+    text-align: center;
+    display: flex;
+
+    padding: 20px;
+
+    margin-bottom: 5%;
+    border-radius: 10px;
+    border: 1px solid red;
+
+
+
+}
+
+
+.testi-col img {
+    height: 50px;
+
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 50%;
+
+
+
+
+
+}
+
+.testi-col h3 {
+    margin-top: 10px;
+
+}
+
+/* contact  parts */
+
+
+.contact {
+    background-image: url(./contact.webp);
+    background-size: cover;
+    background-position: center;
+    width: 90%;
+    height: 50vh;
+    position: relative;
+    border-radius: 10px;
+    border: 1px solid red;
+    
+        color:white;
+
+    margin: auto;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 20px;
+}
+
+.contactpage{
+
+    margin-bottom: 50px;
+}
+
+
+    .contactpage p {
+        margin-top: 20px;
+        margin-bottom: 33px;
+    }
+
+
+
+#btn2 {
+
+
+    text-decoration: none;
+    font-size: 20px;
+    margin-top: 20px;
+    font-weight: bold;
+    color: white;
+    border: 1px red solid;
+    padding: 10px;
+
+    border-radius: 10px;
+
+
+}
+
+#btn2:hover {
+    background-color: rgb(255, 136, 0);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+/* footer */
+
+.footer {
+    text-align: center;
+    margin: 50px;
+    font-size: 20px;
+      
+}
+
+
+.footer p {
+    margin-top: 10px;
+    padding-bottom: 50px;
+}
+
+.icon  {
+    margin-bottom: 0px;
+
+    
+  
+
+
+}
+
+
+ .last p{ background-color: black;
+color: #fff;
+
+padding: 50px 10px;
+}
+
+.icon .fa-brands {
+    font-size: 20px;
+
+    padding: 50px 30px;
+    color: red;
+
+}
+
+.fa-solid {
+    color: red;
+    font-size: 15px;
+    margin: 10px 2px;
+
+}
+
+
+nav .fa-solid {
+    display: none;
+}
+
+
+/* About page css */
+
+
+.sub-header {
+    background-image:url(./about2.avif);
+
+    background-position: center;
+    background-size: cover;
+    width: 90%;
+
+    height: 60vh;
+    margin: auto;
+    border-radius: 10px;
+    
+    
+    
+
+
+}
+
+/* about css */
+
+.sub-header h1 {
+    font-size: 40px;
+    padding-left: 200px;
+    color: red;
+    padding-top: 200px;
+
+}
+
+.about {
+    width: 90%;
+    padding-top: 100px;
+
+    font-size: 18px;
+    margin: auto;
+
+}
+
+.about-col {
+    flex-basis: 45%;
+    text-align: justify;
+
+    margin-bottom: 40px;
+
+
+
+}
+
+
+
+.about-col img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+
+}
+
+.about-col h1 {
+    margin-top: 20px;
+}
+
+.about-col p {
+    margin-top: 20px;
+
+
+
+}
+
+
+.bt {
+    display: inline-block;
+    text-decoration: none;
+
+
+    margin-left: 20px;
+    border-color: 1px red solid;
+    font-size: 18px;
+    color: #fff;
+    background-color: red;
+
+    padding: 10px;
+    border-radius: 10px;
+
+
+
+}
+
+/* about part css end */
+
+
+
+
+/* course part css start */
+.course-header {
+    background-image: url(./dipmola.jpg);
+
+    background-position: center;
+    background-size: cover;
+    width: 90%;
+
+    height: 60vh;
+    margin: auto;
+    border-radius: 10px;
+
+
+}
+
+
+
+.courses1 {
+    width: 90%;
+    text-align: center;
+    padding-top: 100px;
+    margin-bottom: 50px;
+    margin: auto;
+
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.couresname1 {
+    flex-basis: 45%;
+
+
+    text-align: justify;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+
+.couresname1 p {
+    margin-top: 20px;
+}
+
+.couresname1 h1 {
+
+    margin-top: 10px;
+}
+
+.row1 {
+    display: flex;
+
+    justify-content: space-between;
+}
+
+
+.couresname1 img {
+    height: 90%;
+
+    width: 90%;
+
+
+}
+
+/* blog css part  start */
+
+.blog-header{width: 90%;
+background-image: url(./header.webp);
+height: 60vh;
+background-position: center;
+background-size: cover;
+
+margin: auto;
+opacity: 5;
+
+
+
+
+}
+.facility1{margin-top:400px;
+
+
+text-align: center;}
+
+
+.facility1 h1{margin-bottom: 50px;
+
+}
+
+/* contect css */
+
+
+
+
+
+.header{width: 90%;
+    background-image: url(./1643985362178.jpg);
+    height: 60vh;
+    background-position: center;
+    background-size: cover;
+
+    
+
+    
+    margin: auto;
+    background: no-repeat;
+
+}
+
+
+.contactpage{
+width: 90%;
+font-size: 20px;
+padding-top: 50px;
+margin-bottom: 30px;
+margin: auto;
+
+
+}
+.contactpage p{margin-top: 20px;
+
+
+
+}
+
+
+
+
+
+   /* #exampleInputPassword12{
+
+
+    margin-right: 40px;
+    padding: 10px 0px;
+}
+
+#exampleInputPassword123{margin-right: 80px;
+    padding: 10px 0;
+    margin-top: 10px; */
+
+
+
+
+.address{
+
+    text-align: right;
+    margin-top:3px;
+    padding-right:300px;
+    margin-bottom: 30px;
+
+
+}
+
+ 
+    
+
+
+
+
+
+
+/* meadia query  FOr mobile*/
+
+
+
+@media(max-width:600px) {
+
+    .row {
+        flex-direction: column;
+
+    }
+    nav img {
+        width: 83px;
+        border-radius: 50%;
+        
+    }
+    .icon .fa-brands {
+        font-size: 20px;
+
+        padding: 20px 10Px;
+        color: red;
+
+    }
+
+    .row1 {
+        flex-direction: column;
+    }
+
+    .text h1 {
+
+
+        font-size: 21px;
+        padding-top: 10px;
+        margin-top: -59px;
+
+
+    }
+
+
+
+    .text p {
+        font-size: 15px;
+
+        padding-top: 10px;
+        text-align: center;
+    }
+
+    .btn {
+        text-decoration: none;
+        font-size: 22px;
+        margin-top: 23px;
+        font-weight: bold;
+        color: #fff;
+        padding: 0px 10px;
+    }
+
+    .courses {
+
+
+        margin-bottom: 10px;
+
+        margin-top: 35px;
+        font-size: 17px;
+    }
+
+    .contact {
+        font-size: 17px;
+    }
+
+
+    /* toggale menu */
+
+    .menu {
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        height: 100vh;
+        width: 200px;
+        background-color: red;
+
+
+
+
+    }
+
+    .menu {
+        right: -200px;
+    }
+
+    nav .fa-solid {
+        padding: 20px;
+
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+        font-size: 40px;
+        display: block;
+    }
+
+
+    .menu ul li {
+        display: block;
+
+        font-size: 20px;
+        padding: 20px 20px;
+
+    }
+
+    .btn {
+        margin-bottom: 20px;
+        margin-left: 20px;
+    }
+}
+
+
+
+
+/* pad responsive */
+@media (max-width:768px) {
+    .testi {
+        margin-top: 129px;
+    }
+
+    .testi-col {
+        padding: 13px;
+    }
+
+
+    .menu ul li a {
+        margin-left: -18px;
+        text-decoration: none;
+        color: aliceblue;
+        font-size: 25px;
+    }
+
+    .testi h1 {
+        margin-top: 124px;
+        margin-bottom: 27px;
+        padding-top: 100px;
+    }
+}
+
+/* laptop responsive */
+
+@media(max-width: 1024px) {
+    .menu ul li {
+
+        padding-right: 46px;
+        font-weight: bolder;
+    }
+
+
+    .text p {
+        padding-top: 53px;
+        font-size: 24px;
+    }
+}
+
+
+/* large laptop */
+

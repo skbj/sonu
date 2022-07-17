@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!-- fontawaysome -->
+    <script src="https://kit.fontawesome.com/1bfc72b40b.js" crossorigin="anonymous"></script>
+
+
+    <!-- bootstrp -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+        integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
+        integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
+        crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <nav> <img src="./1643985362178.jpg" alt="">
+
+
+            <div class="menu" id="menu1">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li> <a href="index.html"> Home</a></li>
+
+                    <li> <a href="about.html"> About</a></li>
+                    <li> <a href="course.html"> course</a></li>
+                    <li> <a href="blog.html"> Blog</a></li>
+                    <li> <a href="contact.html"> contact</a></li>
+                </ul>
+
+
+            </div>
+            <i class="fa-solid fa-bars" id="bar" onclick="showMenu()"></i>
+        </nav>
+
+    </header>
+
+
+
+    <div class="contactpage">
+        <h1> Contact page</h1>
+        <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio exercitationem assumenda deleniti laborum nam
+            commodi ea ad id laudantium porro! Dignissimos temporibus possimus, ullam voluptatum doloremque nostrum
+            ipsa, eius unde eaque modi voluptates amet tempore eos, nemo harum sit rerum? Voluptas placeat dolorum
+            deleniti ratione nemo reiciendis vitae error fuga.
+
+        </P>
+
+
+    <!-- contact form -->
+
+    <div class="row justify-content-evenly mt-5 mb-5 " style="background-color : #f1f1f1">
+        <div class="col-md-5 mt-3">
+          <h4>Contact form</h4> <br>
+          <form>
+            <div class="mb-3">
+              <label for="name" class="form-label">Full name :</label>
+              <input type="text" class="form-control" id="name"> <br><br>
+  
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label">Email id:</label>
+              <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+            <br>
+            <div class="mb-3">
+              <label for="exampleFormControlTextarea1" class="form-label">Massage</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+  
+            <button type="submit" class="btn btn-danger">Submit</button>
+          </form>
+        </div>
+        <div class="col-md-2 mt-80 ">
+          <h4> Address</h4>
+          <P> PLOT NO-129,  <br>
+            
+                
+                Sector -37 <br>
+
+                gurugram <br>
+                PIN CODE:122001<br>
+
+            <i class="bi bi-telephone-inbound-fill"></i> 5904940949 <br>
+  
+          </P>
+          </div>
+          <div class="col-md-5">
+
+
+
+          
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d902.540993944204!2d55.2733222894046!3d25.197692089073513!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f43348a67e24b%3A0xff45e502e1ceb7e2!2sBurj%20Khalifa!5e0!3m2!1sen!2sin!4v1644461451114!5m2!1sen!2sin"
+            style="width: 100%;" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>    </div>
+
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <!-- footer part -->
+
+
+
+    <section class="footer">
+        <div class="icon">
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-youtube"></i>
+            <i class="fa-brands fa-instagram"></i>
+        </div>
+
+        <div class="last">
+
+            <p> made by<i class="fa-solid fa-heart"></i>sk insititute </P>
+
+        </div>
+    </section>
+    <script>
+        let menu1 = document.getElementById("menu1")
+
+        function showMenu() {
+
+
+            menu1.style.right = "0px"
+        }
+        function hideMenu() {
+
+
+            menu1.style.right = "-200px"
+
+        }
+
+
+    </script>
+</body>
+
+</html>
